@@ -1,9 +1,13 @@
+---
 swagger: "2.0"
 x-collection-name: Google Fit
-x-complete: 1
+x-complete: 0
 info:
-  title: Fitness
-  description: stores-and-accesses-user-data-in-the-fitness-store-from-apps-on-any-platform-
+  title: Google Fit API Update Data Source
+  description: |-
+    Updates the specified data source. The dataStreamId, dataType, type, dataStreamName, and device properties with the exception of version, cannot be modified.
+
+    Data sources are identified by their dataStreamId.
   contact:
     name: Google
     url: https://google.com
@@ -147,3 +151,17 @@ paths:
           description: OK
       tags:
       - Data Source
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
